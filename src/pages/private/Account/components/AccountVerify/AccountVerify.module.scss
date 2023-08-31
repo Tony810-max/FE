@@ -1,0 +1,44 @@
+
+.formVerify{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.FormInputVerify{
+    background-color: #fafafa;
+    padding: 12px 24px;
+    width: 100%;
+}
+
+.verifyBtn{
+    background-color: var(--primary-color) !important;
+    padding: 12px 24px;
+    color: var(--text-color);
+    border-radius: 4px;
+    min-width: 200px;
+}
+
+@media (max-width: 992px) {
+    .formVerify{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .FormInputVerify{
+        width: 100%;
+        background-color: #fafafa;
+        padding: 12px 24px;
+    }
+    
+    .verifyBtn{
+        width: 100%;
+        background-color: var(--primary-color) !important;
+        padding: 12px 24px;
+        color: var(--text-color);
+        border-radius: 4px;
+    }
+}

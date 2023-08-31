@@ -1,0 +1,53 @@
+.wrapper {
+    padding-bottom: 140px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ratingForm{
+    width: 100%;
+}
+
+.title {
+    margin-top: 140px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleText {
+    color: var(--primary-color);
+    font-style: italic;
+    font-size: 72px;
+    line-height: 80px;
+    font-weight: 500;
+}
+
+.vector {
+    width: 25%;
+}
+
+.form{
+    margin-top: 80px;
+    align-self: flex-start;
+    width: 100%;
+}
+
+
+@media (max-width: 576px){
+    .wrapper{
+        margin-top: 80px;
+    }
+
+    .titleText{
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .vector {
+        width: 40%;
+    }
+}

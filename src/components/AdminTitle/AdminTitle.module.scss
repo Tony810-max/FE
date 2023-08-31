@@ -1,0 +1,18 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.block{
+    width: 24px;
+    height: 48px;
+    border-radius: 6px;
+    background-color: var(--primary-color);
+}
+.title{
+    color: var(--primary-color);
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 500;
+    letter-spacing: 0.1;
+}
